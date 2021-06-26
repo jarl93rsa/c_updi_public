@@ -16,9 +16,3 @@ A linux implementation will come soon when I get time to rewrite those basic fun
 
 The log files are to handle output from the updi process to make implementing into various different projects easier. The provided log.c is more or less just a basic printf() implementation, with a bool VERBOSE to control which function's output are considered. 
 The reason for this log feature is so that if you were to include c_updi into for example a GUI for firmware updating you could change the log functions to output to your GUI easily without havig to trawl through updi.c and change all outputs there.
-
-I hope this is as useful to you as it has been for me.
-
-Any issues or questions contact me on 
-tyjean.com
-jarl93rsa@gmail.com
